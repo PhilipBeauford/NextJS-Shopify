@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import ProductList from '../components/ProductList'
 import { getProductsInCollection } from '../lib/shopify'
 
 export default function Home( {products}) {
@@ -8,7 +8,7 @@ export default function Home( {products}) {
 
   return (
     <div className="text-3xl">
-      Hello from Shopify Next.js
+      <ProductList products={products} />
     </div>
   )
 }
