@@ -7,7 +7,7 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## Preview
 
-Preview the example live on https://next-js-shopify-six.vercel.app/.com
+Preview the example live on https://next-js-shopify-six.vercel.app
 
 
 ## Deploy your own
