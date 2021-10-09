@@ -9,7 +9,7 @@ export default function Home( {products}) {
   return (
     <div className="">
       <Head>
-        <title>Modern eCommerce Course</title>
+        <title>Modern eCommerce | Headless Shopify</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="description" content="Modern eCommerce Website focusing on Shopify, Next.js, TailwindCSS & GraphQL. 
