@@ -14,7 +14,7 @@ export default function Home( {products}) {
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="description" content="Modern eCommerce Website focusing on Shopify, Next.js, TailwindCSS & GraphQL. 
           Additional tech stack includes Storefront API, Static Site Generation, getStaticPaths, getStaticProps and more." />
-        <meta property="og:title" content="Modern eCommerce Course" />
+        <meta property="og:title" content="Modern eCommerce | Headless Shopify" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://next-js-shopify-six.vercel.app/" />
         <meta property="og:image" content="./share.png" />
@@ -22,7 +22,7 @@ export default function Home( {products}) {
           content="Modern eCommerce Website focusing on Shopify, Next.js, TailwindCSS & GraphQL. 
           Additional tech stack includes Storefront API, Static Site Generation, getStaticPaths, getStaticProps and more." />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content="Modern eCommerce Headless Shopify" />
+        <meta property="og:site_name" content="Modern eCommerce | Headless Shopify" />
       </Head>
       <Hero />
       <ProductList products={products} />
