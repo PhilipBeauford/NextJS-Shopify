@@ -12,15 +12,15 @@ export default function Hero() {
           Building the Future:&nbsp;
 
           <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 
-                          text-4xl sm:text-6xl md:text-7xl">
+                          text-4xl sm:text-6xl md:text-5xl">
             Modern eCommerce
           </span> 
 
-        &nbsp;with Shopify + Next.js + Tailwind
+        with Shopify + Next.js + Tailwind&nbsp;
       </h1>
       
 
-      <h2 className="text-gray-500 sm:text-lg md:text-xl md:max-x-3xl">
+      <h2 className="text-gray-500 sm:text-lg md:text-xl md:max-x-3xl lg:text-lg">
       If you are a Merchant looking to level up your Shopify Store theme and join the fastest growing industry, this is the place for you.
       </h2>
     </div>
@@ -46,14 +46,10 @@ export default function Hero() {
           sizes="100vw" 
           src="./Saly_19.png" 
           decoding="async" 
-          style={{position:"absolute", top:0, left:0, bottom:100, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
+          style={{position:"absolute", top:0, left:0, bottom:130, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
           height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"cover" }} />
       </div>
   </div>
-
-
-
-
 </div> 
 
   )
