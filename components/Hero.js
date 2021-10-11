@@ -46,7 +46,7 @@ export default function Hero() {
           sizes="100vw" 
           src="./Saly_19.png" 
           decoding="async" 
-          style={{position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
+          style={{position:"absolute", top:0, left:0, bottom:100, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
           height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"cover" }} />
       </div>
   </div>
