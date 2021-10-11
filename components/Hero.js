@@ -21,7 +21,7 @@ export default function Hero() {
       
 
       <h2 className="text-gray-500 sm:text-lg md:text-xl md:max-x-3xl">
-        Building the eCommerce Revolution.
+      If you are a Merchant looking to level up your Shopify Store theme and join the fastest growing industry, this is the place for you.
       </h2>
     </div>
 
@@ -47,7 +47,7 @@ export default function Hero() {
           src="./Saly_19.png" 
           decoding="async" 
           style={{position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
-          height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"contain" }} />
+          height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"cover" }} />
       </div>
   </div>
 
