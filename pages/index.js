@@ -2,6 +2,7 @@ import ProductList from '../components/ProductList'
 import { getProductsInCollection } from '../lib/shopify'
 import Hero from "../components/Hero"
 import Head from 'next/head'
+import Body from '../components/Body'
 
 
 export default function Home( {products}) {
@@ -25,6 +26,7 @@ export default function Home( {products}) {
         <meta property="og:site_name" content="Modern eCommerce | Headless Shopify" />
       </Head>
       <Hero />
+      <Body />
       <ProductList products={products} />
     </div>
   )
@@ -37,3 +39,4 @@ export async function getStaticProps() {
     props: { products }, // will be passed to the page component as props
   }
 }
+
