@@ -7,7 +7,7 @@ import Head from 'next/head'
 export default function Home( {products}) {
 
   return (
-    <div className="">
+    <div className="mx-auto max-w-6xl lg:max-w-7xl xl:max-w-full">
       <Head>
         <title>Modern eCommerce | Headless Shopify</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
