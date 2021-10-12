@@ -3,6 +3,7 @@ import { getProductsInCollection } from '../lib/shopify'
 import Hero from "../components/Hero"
 import Head from 'next/head'
 import Body from '../components/Body'
+import Midsection from '../components/Midsection'
 
 
 export default function Home( {products}) {
@@ -27,6 +28,7 @@ export default function Home( {products}) {
       </Head>
       <Hero />
       <Body />
+      <Midsection />
       <ProductList products={products} />
     </div>
   )
