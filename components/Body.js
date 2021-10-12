@@ -34,31 +34,92 @@ export default function Body() {
                         <div className="relative h-96 w-full">
                             <div style={{ display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0 }} >
 
-
                                 <img 
                                 alt="Hero Image" 
                                 sizes="100vw" 
                                 src="./Screenshot-mine.png" 
                                 decoding="async" 
                                 style={{ position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", 
-                                display:"block", width:0, height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"contain" }}
+                                display:"block", width:0, height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"cover" }}
                                 />
 
                             </div>
-
-                            
                         </div>
                     </div>
 
 
 
-                    <div className="w-full h-full p-8 rounded-3xl shadow-2xl bg-white lg:relative lg:-top-16">
+                    <div className="w-full h-full p-8 rounded-3xl shadow-2xl bg-white lg:relative lg:-top-40">
+                        <span className="text-4xl">
+                            💰
+                        </span>
+                            <h3 className="font-bold text-2xl">
+                                Create over
+                                <span className="decoration-clone text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                                    &nbsp;$50,000&nbsp;
+                                </span>
+                                in value for yourself or your clients!
+                            </h3>
+                            <p className="text-gray-500 py-5">
+                            "Let’s start with one of the most important factors: cost. The pricing for an enterprise headless project could cost anywhere from 
+                            $50,000 to $500,000, plus annual maintenance costs, depending on the functionality, supporting tools, and level of customization." -
+                                <a className="text-green-600 font-bold" target="_blank" rel="noreferrer" href="https://www.shopify.com/enterprise/headless-commerce">
+                                    Shopify
+                                </a> 
+                            </p>
+
+                            <div className="relative h-96 w-full">
+                                <div style= {{display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0}} >
+                                    <img alt="Hero Image" sizes="100vw" src="./worldwide.png" decoding="async" style= {{position:"absolute",top:0,left:0,bottom:0, right:0, 
+                                    boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%",
+                                    maxHeight:"100%", objectFit:"contain" }} />
+                                </div>
+                            </div>
                     </div>
+
+
 
                     <div className="w-full h-full p-8 rounded-3xl shadow-2xl bg-white">
+                        <span className="text-4xl">
+                            ⚡
+                        </span>
+                        <h3 className="font-bold text-2xl">
+                            I Build Blazing Fast Wesites...
+                            <span className="decoration-clone text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                                &nbsp;FAST!
+                            </span>
+                        </h3>
+                        <p className="text-gray-500 py-5">
+                        Forget about spending months on your project! With this tech-stack, we can start building out your projects in a matter of hours! 
+                        Oh yeah, and it's incredibly fast and responsive too.
+                        </p>
+                        <div className="relative h-96 w-full">
+                            <div syle={{ display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0 }} >
+                                <img alt="Hero Image" sizes="100vw" src="./fast.png" decoding="async" class="w-full" style={{ position:"absolute", top:0 , left:0, bottom:0, 
+                                    right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, height:0, minWidth:"100%", maxWidth:"100%",
+                                    minHeight:"100%", maxHeight:"100%", objectFit:"contain" }} />
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="w-full h-full p-8 rounded-3xl shadow-2xl bg-white lg:relative lg:-top-16">
+                    <div className="w-full h-full p-8 rounded-3xl shadow-2xl bg-white lg:relative lg:-top-40">
+                        <span className="text-4xl">
+                            🤓
+                        </span>
+                        <h3 className="font-bold text-2xl">
+                            A Tech-Stack that allows for
+                            <span className="decoration-clone text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                                <br/>Effortless Coding and Prototyping.
+                            </span>
+                        </h3>
+                        <p className="text-gray-500 py-5">
+                            I only use cutting edge technologies and always write clean, efficient code.
+                        </p>
+                        <div className="relative h-96 w-full">
+                            <div style={{ display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0 }}>
+                                <img alt="Hero Image" sizes="100vw" src="./carbon.png"/>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

@@ -9,14 +9,14 @@ export default function Hero() {
     <div className="max-w-xl mb-6">
 
       <h1 className="max-w-lg mb-6 font-sans text-4xl font-extrabold text-gray-900 sm:text-5xl md:leading-none leading-tighten">
-          Building the Future:&nbsp;
+          Building the Future:
 
           <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 
                           text-4xl sm:text-6xl md:text-5xl">
-            Modern eCommerce
+            Modern&nbsp;eCommerce&nbsp;
           </span> 
 
-        with Shopify + Next.js + Tailwind&nbsp;
+        with Shopify + Next.js + Tailwind
       </h1>
       
 
