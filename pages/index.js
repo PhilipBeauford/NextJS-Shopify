@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import Head from 'next/head'
 import Body from '../components/Body'
 import Midsection from '../components/Midsection'
+import Ready from '../components/Ready'
 
 
 export default function Home( {products}) {
@@ -30,6 +31,7 @@ export default function Home( {products}) {
       <Body />
       <Midsection />
       <ProductList products={products} />
+      <Ready />
     </div>
   )
 }
