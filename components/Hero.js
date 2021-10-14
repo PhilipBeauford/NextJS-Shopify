@@ -33,7 +33,7 @@ export default function Hero() {
           Build Now
         </a>
         <a href="https://philipbeauford.com" className="inline-flex items-center font-semibold text-gray-900 hover:text-gray-800">
-          Learn more
+          My Work
         </a>
     </div>
   </div>

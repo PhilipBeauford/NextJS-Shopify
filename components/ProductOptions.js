@@ -12,21 +12,38 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
 
                         return (
                             <label key={id} htmlFor={id}>
-                                <input className="sr-only"
-                                type="radio"
-                                id={id}
-                                name={`option-${name}`}
-                                value={value}
-                                checked={checked} 
-                                onChange={() => {
-                                    setOptions(name, value)
-                                }}
-                            />
-                            <div className={`p-2 mt-3 text-lg rounded-full block cursor-pointer
-                                mr-3 ${checked ? "text-white bg-gray-900" : 
-                                            "text-gray-900 bg-gray-200"}`}>
-                                <span className="px-2">{value}</span>
-                            </div>
+                                <input 
+                                    className="sr-only"
+                                    type="radio"
+                                    id={id}
+                                    name={`option-${name}`}
+                                    value={value}
+                                    checked={checked} 
+                                    onChange={() => { setOptions(name, value) }}
+                                
+                                />
+
+
+                                <div 
+                                    className={`p-2 mt-3 text-lg rounded-full block cursor-pointer mr-3 ${
+                                        checked 
+                                            ? "text-white bg-gray-900" 
+                                            : "text-gray-900 bg-gray-200"
+                                        }`}
+                                >
+
+                                    {name.includes("Color") ?
+                                    <div className="roundedfull h-6 w-6"
+                                        style={{backgroundColor: value}}
+                                    >
+                                        <span className="sr-only">
+                                            {value}
+                                        </span>
+                                    </div>
+                                    :
+                                    <span className="px-2">{value}</span>
+                                   } 
+                                </div>
                             </label>
                              
                         )
@@ -37,3 +54,5 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
     )
 }
 
+
+//line 21 not sure why 2nd brackets {} are around the { setOptions(name,value) }
