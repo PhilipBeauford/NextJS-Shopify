@@ -19,7 +19,7 @@ export default function Nav() {
                 <Link href="/" passHref>
                     <a className="cursor-pointer">
                         <span className="text-lg pt-1 font-bold"> 
-                            Shopify + Next.js
+                        🚀 Headless Shopify + Next.js
                         </span>
 
                         
