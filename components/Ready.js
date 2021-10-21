@@ -16,7 +16,7 @@ export default function Ready() {
 
                             </h2>
                             <p className="mt-4 text-lg leading-6 text-indigo-200">
-                                We have all the skills needed to help you stand out and build epic stores. Love it or your money back.
+                                I have all the skills needed to help you stand out and build epic stores.
                             </p>
                             
                             <a href="https://www.philipbeauford.com" className="mt-4 bg-white border border-transparent rounded-md 

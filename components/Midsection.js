@@ -27,7 +27,7 @@ export default function Midsection() {
                                 Self-Paced Build
                         </h3>
                         <p className="py-5">
-                            You have a busy life, we undestand that and believe in building asynchronous. Easily access the current project preview at anytime.
+                            You have a busy life, I undestand that and believe in building asynchronous. Easily access the current project preview at anytime.
                         </p>
                     </div>
 
@@ -41,7 +41,7 @@ export default function Midsection() {
                             
                         </div>
                         <h3 className="font-bold text-3xl -mt-3">
-                                Jam-Packed with Content
+                                Jam-Packed with Modern Tech
                         </h3>
                         <p className="py-5">
                                 Next.js, GraphQL, Shopify Storefront API, Tailwind CSS, Vercel, React Hooks and more!
@@ -61,7 +61,7 @@ export default function Midsection() {
                                 Action Based
                         </h3>
                         <p className="py-5">
-                                Our team is ready to get your project started in as little time as possible. There are no Uhhs or Hmms. All straight to the point.
+                                I can get your project started in as little time as possible. There are no Uhhs or Hmms. All straight to the point.
                         </p>
                     </div>
                 </div>

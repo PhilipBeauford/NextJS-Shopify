@@ -83,7 +83,7 @@ export default function Body() {
                             </span>
                         </h3>
                         <p className="text-gray-500 py-5">
-                        Forget about spending months on your project! With this tech-stack, we can start building out your projects in a matter of hours! 
+                        Forget about spending months on your project! With this tech-stack, I can start building out your projects in a matter of days! 
                         Oh yeah, and it's incredibly fast and responsive too.
                         </p>
                         <div className="relative h-96 w-full">
