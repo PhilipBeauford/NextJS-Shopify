@@ -23,7 +23,7 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
                                 
                                 />
 
-
+                                {/* Color Swatches */}
                                 <div 
                                     className={`p-2 mt-3 text-lg rounded-full block cursor-pointer mr-3 ${
                                         checked 
@@ -33,7 +33,7 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
                                 >
 
                                     {name.includes("Color") ?
-                                    <div className="roundedfull h-6 w-6"
+                                    <div className="rounded-full h-6 w-6"
                                         style={{backgroundColor: value}}
                                     >
                                         <span className="sr-only">

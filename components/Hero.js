@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { stylesA } from './Styles'
+import { stylesB } from './Styles'
 
 export default function Hero() {
   return (
@@ -40,14 +42,13 @@ export default function Hero() {
 
   
   <div className="relative object-cover object-top w-full h-72 mx-auto lg:h-auto xl:mr-24 md:max-w-sm">
-      <div style={{display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0, }}>
+      <div style={stylesA}>
           <img 
           alt="Hero Image" 
           sizes="100vw" 
           src="./Saly_19.png" 
           decoding="async" 
-          style={{position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, 
-          height:0, minWidth:"100%", maxWidth:"100%", minHeight:"100%", maxHeight:"100%", objectFit:"contain" }} />
+          style={stylesB} />
       </div>
   </div>
 
