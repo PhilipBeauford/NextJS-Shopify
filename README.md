@@ -1,4 +1,5 @@
 # Philips Shopify + Next.js + Tailwind CSS Example
+![](Nextjs.gif)
 
 This example shows how the Shopify Storefront API can be used to create fast front-ends using a
 Next.JS & TailwindCSS tech stack.

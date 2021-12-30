@@ -3,11 +3,13 @@ import { createCheckout, updateCheckout } from "../lib/shopify"
 
 const CartContext = createContext()
 
+
 export default function ShopProvider({ children }) {
     const [cart, setCart] = useState([])
     const [cartOpen, setCartOpen] = useState(false)
     const [checkoutId, setCheckoutId] = useState('')
     const [checkoutUrl, setCheckoutUrl] = useState('')
+
 
     useEffect(() => {
         if (localStorage.checkout_id) {
@@ -18,12 +20,10 @@ export default function ShopProvider({ children }) {
             } else if (cartObject[0].length > 0) {
                 setCart(...[cartObject[0]])
             }
-
             setCheckoutId(cartObject[1].id)
             setCheckoutUrl(cartObject[1].webUrl)
         }
     }, [])
-
 
 
     async function addToCart(newItem) {
@@ -56,21 +56,17 @@ export default function ShopProvider({ children }) {
         }
     }
 
-
     
     async function removeCartItem(itemToRemove) {
         const updatedCart = cart.filter(item => item.id !== itemToRemove)
-
         setCart(updatedCart)
 
         const newCheckout = await updateCheckout(checkoutId, updatedCart)
-
         localStorage.setItem("checkout_id", JSON.stringify([updatedCart, newCheckout]))
 
         if ( cart.length === 1) {
             setCartOpen(false)
         }
-
     }
  
 
@@ -88,7 +84,5 @@ export default function ShopProvider({ children }) {
     )
 }
 
-
 const ShopConsumer = CartContext.Consumer
-
 export { ShopConsumer, CartContext }

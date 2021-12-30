@@ -9,14 +9,12 @@ import { formatter } from './../utils/helpers'
 
 export default function MiniCart({ cart }) {
     const cancelButtonRef = useRef()
-
     const { cartOpen, setCartOpen, checkoutUrl, removeCartItem } = useContext(CartContext)
 
     let cartTotal = 0
     cart.map(item => {
         cartTotal += item?.variantPrice * item?.variantQuantity
     })
-
 
   return (
     <Transition.Root show={cartOpen} as={Fragment}>
@@ -111,11 +109,8 @@ export default function MiniCart({ cart }) {
                             </li>
                           ))}
                         </ul> : 
-                            <div>
-                                <p>Nothing in your cart!</p>
-                            </div>
+                            <div>  <p>Nothing in your cart!</p>  </div>
                           }
-                        
                       </div>
                     </div>
                   </div>
@@ -136,6 +131,7 @@ export default function MiniCart({ cart }) {
                           Checkout
                         </a>
                       </div>
+
                       <div className="mt-6 flex justify-center text-sm text-center text-gray-500">
                         <p>
                           or{' '}
@@ -150,7 +146,6 @@ export default function MiniCart({ cart }) {
                       </div>
                     </div> : null
                   }
-
                   
                 </div>
               </div>

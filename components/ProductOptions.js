@@ -4,6 +4,7 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
     return (
         <fieldset className="mt-3">
             <legend className="text-xl font-semibold">{name}</legend>
+
             <div className="inline-flex items-center flex-wrap">
                 {
                     values.map(value => {
@@ -20,16 +21,15 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
                                     value={value}
                                     checked={checked} 
                                     onChange={() => { setOptions(name, value) }}
-                                
                                 />
 
                                 {/* Color Swatches */}
                                 <div 
-                                    className={`p-2 mt-3 text-lg rounded-full block cursor-pointer mr-3 ${
-                                        checked 
-                                            ? "text-white bg-gray-900" 
-                                            : "text-gray-900 bg-gray-200"
-                                        }`}
+                                    className={`p-2 mt-3 text-lg rounded-full block cursor-pointer mr-3 
+                                            ${ checked 
+                                                ? "text-white bg-gray-900" 
+                                                : "text-gray-900 bg-gray-200"
+                                            }`}
                                 >
 
                                     {name.includes("Color") ?
@@ -45,7 +45,6 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
                                    } 
                                 </div>
                             </label>
-                             
                         )
                     })
                 }
@@ -53,6 +52,5 @@ export default function ProductOptions({ name, values, selectedOptions, setOptio
         </fieldset>
     )
 }
-
 
 //line 21 not sure why 2nd brackets {} are around the { setOptions(name,value) }
