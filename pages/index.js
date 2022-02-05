@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Body from '../components/Body'
 import Midsection from '../components/Midsection'
 import Ready from '../components/Ready'
+import Reviews from './../components/Reviews'
 
 
 export default function Home( {products}) {
@@ -30,6 +31,7 @@ export default function Home( {products}) {
       <Hero />
       <Body />
       <Midsection />
+      <Reviews />
       <ProductList products={products} />
       <Ready />
     </div>

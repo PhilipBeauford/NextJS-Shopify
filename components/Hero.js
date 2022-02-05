@@ -53,20 +53,3 @@ export default function Hero() {
       </div> 
   )
 }
-
-//These are the styles I used
-//div1     mx-auto max-w-6xl lg:max-w-7xl xl:max-w-full
-//div2     class="flex flex-col justify-between max-w-xl pt-0 px-4 mx-auto lg:pt-24 lg:flex-row md:px-8 lg:max-w-screen-xl"
-//div3     class="flex flex-col justify-between max-w-xl pt-0 px-4 mx-auto lg:pt-24 lg:flex-row md:px-8 lg:max-w-screen-xl"
-//div4     max-w-xl mb-6
-
-
-/*  Announcement Bar
-div1    bg-gradient-to-r from-purple-500 via-pink-400 to-red-500
-div2    max-w-7xl mx-auto px-3 py-2 sm:px-6 lg:px-8
-div3    flex items-center justify-between flex-wrap
-div4    w-0 flex-1 flex items-center
-p 1    ml-3 font-medium text-white truncate w-full text-center
-a 1   href="/#pricing"
-span inline
-*/

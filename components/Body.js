@@ -88,7 +88,7 @@ export default function Body() {
                         </p>
                         <div className="relative h-96 w-full">
                             <div syle={{ display:"block", overflow:"hidden", position:"absolute", top:0, left:0, bottom:0, right:0, boxSizing:"border-box", margin:0 }} >
-                                <img alt="Hero Image" sizes="100vw" src="./fast.png" decoding="async" class="w-full" style={{ position:"absolute", top:0 , left:0, bottom:0, 
+                                <img alt="Hero Image" sizes="100vw" src="./fast.png" decoding="async" className="w-full" style={{ position:"absolute", top:0 , left:0, bottom:0, 
                                     right:0, boxSizing:"border-box", padding:0, border:"none", margin:"auto", display:"block", width:0, height:0, minWidth:"100%", maxWidth:"100%",
                                     minHeight:"100%", maxHeight:"100%", objectFit:"contain" }} />
                             </div>
